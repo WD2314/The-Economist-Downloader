@@ -54,6 +54,7 @@ url = "http://audiocdn.economist.com/sites/default/files/AudioArchive/" + Year +
 #url2 = "http://audiocdn.economist.com/sites/default/files/AudioArchive/" + Year + "/" + Date + "/" + name2
 
 try:
+    print(url) 
     download_from_url(url, name)
     print("已下载\t"+ name)
     os.system("pause")
